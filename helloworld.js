@@ -1,9 +1,8 @@
 // code your `hello` function here!
-function hello(){
-    /*
-    let n = console.log("Hello World");
-    return n;
-    */
-    return "Hello World";
+function hello() {
+    module.exports = "Hello World";
+    console.log("Hello World");
 }
-console.log(hello());
+
+hello();
+
