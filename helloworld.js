@@ -4,6 +4,6 @@ function hello(){
     let n = console.log("Hello World");
     return n;
     */
-    console.log("Hello World");
+    return "Hello World";
 }
-hello();
+console.log(hello());
