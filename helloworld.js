@@ -6,4 +6,5 @@ function hello(){
 module.exports = {
     hello: hello
 };
+hello();
 
