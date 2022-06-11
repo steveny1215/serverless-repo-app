@@ -7,6 +7,7 @@ function hello(){
 hello();
 */
 
-module.exports = function hello() {
-    console.log('Hello World');
-}
+function hello() {
+    return "Hello World";
+} 
+exports.hello = hello;
